@@ -1,6 +1,10 @@
 # ImageCount
 Display an image with counter.
 
+Up or Right arrow increments counter.
+
+Down or Left arror decrements counter.
+
 # Install
 ```
 git clone https://github.com/orenmnero/ImageCount.git
