@@ -12,7 +12,7 @@ parser.add_argument('--font_size', type=int, default=100, help="Font size for co
 args = parser.parse_args()
 
 window = tk.Tk()
-window.title("ImageCount")
+window.title("ImageCount " + args.image)
 
 image = Image.open(args.image)
 
